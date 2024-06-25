@@ -3,9 +3,10 @@ import time
 def countdown( current,signal) :
     signals = [1, 2, 3, 4]
     countdowns=5
-    if current == 1:
-        while current == 1:
-            print(f"Signal{signal} : Time Left : -")
+
+    while current == 1:
+        print(f"Signal{signal} : Time Left : -")
+        time.sleep(1)
 
     while current == 0:
 
@@ -17,3 +18,4 @@ def countdown( current,signal) :
 
 
 
+# results = model(source=0,verbose=False,stream=True)
